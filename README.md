@@ -62,6 +62,6 @@ Next inline: DeBERTa.
 
 ### 4. Conclusion:
 
-RoBERTa seems the best fitting model but still far from acceptable results though I have seen that DeBERTa v3 did also good.
+RoBERTa seems the best fitting model but still far from acceptable results though results from previous work using DeBERTa v3 did also great (testing in progress).
 
 ____________________________________________________________________________________________________________
