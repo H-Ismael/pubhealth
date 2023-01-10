@@ -14,7 +14,8 @@ The aim of this model is to predict the correct label associated with the claim 
 1.2. Drop Missing Values.  
 
 1.3. Check outliers.  
-- Find and eliminate outliers in labels.
+- Find and eliminate outliers in labels.  
+- Save clean data.
 
 1.4. Check on Data balance and label distribution.  
 
@@ -25,6 +26,7 @@ The aim of this model is to predict the correct label associated with the claim 
 [PCA Notebook](https://github.com/H-Ismael/pubhealth/blob/main/PCA_insights.ipynb).  
 
 - Conducting PCA on each column given considering tf-idf. 
+- 'Subjects' column seems to expose quite the pattern.  
 - Notes in the notebook.  
 
 
