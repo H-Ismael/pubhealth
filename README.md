@@ -28,15 +28,17 @@ The aim of this model is to predict the correct label associated with the claim 
 
 - Conducting PCA on each column given considering tf-idf. 
 - 'Subjects' column seems to expose quite the pattern.  
-- Notes in the notebook.  
+- More details to be find in the notebook.  
+![PCA of column Subject to TF-IDF](https://github.com/H-Ismael/pubhealth/blob/main/subjectsPCA.JPG)
 
+When It comes to True claims there is no great PCA component significance according to subjects but for other labls particularly False and unproven claims the tendency is clear.
 
 ### 2. Models training and data iteration:  
 
 2.1. Base model BERT.  
 - Pretrained BERT was used on cleaned imbalanced dataset first.  
 
-2.2. Iterate/modify model hyperparameters Data features (Enriching data based on **1.5.** results).  
+2.2. Iterate/modify model hyperparameters Data features (Enriching data based on **1.5. and 1.6 results** ).  
 
 2.3. BERT on [balanced/undersampled](https://github.com/H-Ismael/pubhealth/blob/main/data_balancing.ipynb) data. 
 
@@ -46,6 +48,7 @@ The aim of this model is to predict the correct label associated with the claim 
 - Consumed my 2 google colab GPU trails. 
 - Grid search could eventually not be considered due to the above reason.
 - Hyperparameters tunning was done manually (guided by previous attempts of papers).Also sometimes in place iteration had to be done which may make models diversity diffcult to follow.  
+- Conducting PCA on training set was computationally impossible. Test set was used instead. (except Subject column which was verified also with Train set thanks to its short lenght).  
 
 ### 4. Results and remarks:
 
