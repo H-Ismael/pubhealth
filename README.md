@@ -41,6 +41,6 @@ The aim of this model is to predict the correct label associated with the claim 
 - grid search could eventually not be considered due to the above reason.
 - Hyperparameters tunning was done manually (guided by previous attempts of papers)
 ### 4. Results and remarks:
-Base model : precision < 0.61 , loss : 1.3 with [{lr : 1e-3 , batch_size : 128, Epochs : 10}]
+Base model : precision < 0.61 , loss : 1.3 , F1 : 60 best from  combinations of the following [{lr : 1e-3 , batch_size : 128, Epochs : 10} , {lr : 1e-4 , batch_size : 64, Epochs : 12}]
     
 __________________________________________________________________________________
