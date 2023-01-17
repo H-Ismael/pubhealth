@@ -26,7 +26,7 @@ The aim of this model is to predict the correct label associated with the claim 
 
 [PCA Notebook](https://github.com/H-Ismael/pubhealth/blob/main/PCA_insights.ipynb).  
 
-- Conducting PCA on each column given considering tf-idf. 
+- Conducting PCA on each column considering tf-idf. 
 - 'Subjects' column seems to expose quite the pattern.  
 - More details to be find in the notebook.  
 ![PCA of column Subject to TF-IDF](https://github.com/H-Ismael/pubhealth/blob/main/subjectsPCA.JPG)
