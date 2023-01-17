@@ -66,7 +66,7 @@ Balancing decreased the precision and eventually due to more equal contribution 
 Next inline: DeBERTa.
 
 
-### 4. Conclusion:
+### 5. Conclusion:
 
 RoBERTa seems the best fitting model but still far from acceptable results though results from previous work using DeBERTa v3 did also great (testing in progress).
 
